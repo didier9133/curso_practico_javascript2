@@ -71,7 +71,7 @@ function comprobacion_cupon(array){
         const input_price=document.getElementById("input_price");
         const precio=input_price.value;
         const resultado=document.getElementById("resultado");
-        resultado.innerHTML="el cupon no es valido" +"<br />"+"el precio a pagar es de: "+ precio;
+        resultado.innerHTML="el cupon no es valido" +"<br />"+"el precio a pagar es de: $"+ precio;
     }
 }
 
